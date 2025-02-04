@@ -28,22 +28,39 @@
 
     <main>
       <div id="cart">
-        <div class="item">
-          <img src="resources/Gold.png" alt="iPhone 12 Pro">
-          <p>iPhone 12 Pro - $999.00</p>
-          <button class="remove">❌</button>
-        </div>
-
-        <div class="item">
-          <img src="resources/Apple-watch.png" alt="Apple Watch">
-          <p>Apple Watch - $399.00</p>
-          <button class="remove">❌</button>
-        </div>
-
-        <div class="item">
-          <img src="resources/iMac.png" alt="iMac">
-          <p>iMac - $1199.00</p>
-          <button class="remove">❌</button>
+        <div class="items-container">
+          <div class="item">
+            <div class="img-container">
+              <img src="resources/Gold.png" alt="iPhone 12 Pro">
+            </div>
+            <div class="item-info">
+              <div class="item-features">
+                <h3>iPhone 12 Pro</h3>
+                <p>Blue</p>
+                <p class="item-cant">x 1</p>
+              </div>
+              <div class="item-pay">
+                <h3>$999.00</h3>
+                <button class="remove">X</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="item">
+            <div class="img-container">
+              <img src="resources/Apple-watch.png" alt="Apple Watch">
+            </div>
+            <p>Apple Watch - $399.00</p>
+            <button class="remove">X</button>
+          </div>
+  
+          <div class="item">
+            <div class="img-container">
+              <img src="resources/iMac.png" alt="iMac">
+            </div>
+            <p>iMac - $1199.00</p>
+            <button class="remove">X</button>
+          </div>
         </div>
     
         <p>Subtotal: <span id="subtotal">$2597.00</span></p>
@@ -54,7 +71,12 @@
         <button id="applyCoupon">Apply Coupon</button>
       </div>
 
-      
+      <div>
+        <form action="asd">
+          <input type="text" name="" id="">
+          <input type="text" name="" id="">
+        </form>
+      </div>
     </main>
 
 
