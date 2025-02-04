@@ -9,102 +9,64 @@
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
-    />
+      />
 
     <title>Device Shop Checkout | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!--     
-    Checkout
     
-    3 items
+    <header>
+      
+        <h1>Checkout</h1>
+        <p>3 ITEMS</p>
+    </header>
+
+    <main>
+      <div id="cart">
+        <div class="item">
+          <img src="resources/Gold.png" alt="iPhone 12 Pro">
+          <p>iPhone 12 Pro - $999.00</p>
+          <button class="remove">❌</button>
+        </div>
+
+        <div class="item">
+          <img src="resources/Apple-watch.png" alt="Apple Watch">
+          <p>Apple Watch - $399.00</p>
+          <button class="remove">❌</button>
+        </div>
+
+        <div class="item">
+          <img src="resources/iMac.png" alt="iMac">
+          <p>iMac - $1199.00</p>
+          <button class="remove">❌</button>
+        </div>
     
-    iPhone 12 Pro
+        <p>Subtotal: <span id="subtotal">$2597.00</span></p>
+        <p>Tax: <span id="tax">$623.28</span></p>
+        <p>Total: <span id="total">$3220.28</span></p>
     
-    Golden
+        <input type="text" id="coupon" placeholder="Enter coupon code">
+        <button id="applyCoupon">Apply Coupon</button>
+    </div>
     
-    $999.00
-    
-    x 1
-    
-    Apple Watch
-    
-    Blue
-    
-    $399.00
-    
-    iMac
-    
-    Green
-    
-    $1199.00
-    
-    Enter coupon code
-    
-    Apply Coupon
-    
-    Sub total
-    
-    $2597.00
-    
-    Tax
-    
-    $623.28
-    
-    Total
-    
-    $3220.28
-    
-    Contact Information
-    
-    First & Last name
-    
-    Enter first & last name
-    
-    Email Address
-    
-    Enter email address
-    
-    Country
-    
-    Finland
-    
-    Postal Code
-    
-    00270
-    
-    Continue
-     -->
+    </main>
+
+
+
 
     <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
+      Coded by <a href="#">Francisco Mazzi</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
       >.
     </div>
+
+    <script src="script.js"></script>
+
   </body>
 </html>

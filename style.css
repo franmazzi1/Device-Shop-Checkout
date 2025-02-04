@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #F3F4F6;
+    background-image: url(resources/background-image.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    color: #1D1D1F;
+    font-family: 'Inter';
+}
+header{
+    margin: 20px auto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+header h1{
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+header p{
+    display: inline-block; 
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background-color: #1D1D1F;
+    border-radius: 20px;
+
+}
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
