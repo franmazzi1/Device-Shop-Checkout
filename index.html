@@ -97,29 +97,30 @@
         <form>
       
 
-          <div>
+          
             <label for="name">First & Last name</label>
             <input type="text" name="name" placeholder="Enter first & last name">
-          </div>
+          
 
-          <div>
+          
             <label for="email">Email Address</label>
             <input type="email" name="email" placeholder="Enter email address">
-          </div>
+          
+          <div class="location">
+            <div>
+              <label for="countries">Country</label>
+              <select name="countries">
+                <option value="Finland">Finland</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Argentina">USA</option>
+              </select>
+            </div>
 
-          <div>
-            <label for="countries">Country</label>
-            <select name="countries">
-              <option value="Finland">Finland</option>
-              <option value="Argentina">Argentina</option>
-              <option value="Brazil">Brazil</option>
-              <option value="Argentina">USA</option>
-            </select>
-          </div>
-
-          <div>
-            <label for="subject">Postal Code</label>
-            <input type="number" name="postal-code" placeholder="00270">
+            <div>
+              <label for="postal-code">Postal Code</label>
+              <input type="text" name="postal-code" placeholder="00270">
+            </div>
           </div>
           <input type="submit" id="continue" value="Continue">
         </form>

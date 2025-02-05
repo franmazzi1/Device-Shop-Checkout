@@ -43,15 +43,15 @@ main{
     justify-content: center;
     align-items: stretch;
     border-radius: 20px;
-    width: 90%;
+    width: 98%;
+    max-width: 1500px;
     margin: auto;
+    overflow: hidden;
 }
 
 #cart{
     padding: 32px;
     background-color: #E5E7EB;
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
     width: 50%;
     
 }
@@ -170,18 +170,65 @@ main{
 .form-container {
     background-color: #FFFFFF;
     padding: 32px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
     width: 50%;
 }
 .form-container h3{
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+
+}
+.form-container form{
+    width: 100%;
+    font-size: 1rem;
+    color: #394150;
+
+}
+form {
+    margin-bottom: 20px;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
 }
 
-
-
-
+form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #D2D5DA;
+    background-color: #F3F4F6;
+    font-size: 1rem;
+}
+.location{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+form select{
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #D2D5DA;
+    background-color: #F3F4F6;
+    font-size: 1rem;
+    color: #394150;
+    cursor: pointer;
+}
+.location div{
+    width: 45%;
+}
+input[type="submit"]{
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 
 
