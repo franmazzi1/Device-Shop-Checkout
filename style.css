@@ -242,3 +242,17 @@ input[type="submit"]{
 .author-info a {
     text-decoration: none;
 }
+
+
+@media (max-width: 800px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    #cart{
+        width: 100%;
+    }
+    .form-container{
+        width: 100%;
+    }
+}
