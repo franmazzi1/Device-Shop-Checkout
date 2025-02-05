@@ -32,6 +32,8 @@ header p{
     font-weight: 400;
     background-color: #1D1D1F;
     border-radius: 20px;
+    position: relative;
+    top: -3px;
 
 }
 
@@ -39,7 +41,7 @@ main{
     display: flex;
 
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     border-radius: 20px;
     width: 90%;
     margin: auto;
@@ -51,6 +53,7 @@ main{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     width: 50%;
+    
 }
 
 .items-container{
@@ -83,7 +86,7 @@ main{
 .item-info{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
 }
 .item-features{
     display: flex;
@@ -107,6 +110,55 @@ main{
     background-color: transparent;
 }
 
+.coupon-container{
+    
+    width: 100%;
+    margin: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.coupon-container input{
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #D2D5DA;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.coupon-container button{
+    padding: 20px 10px ;
+    background-color: #1D1D1F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    width: 25%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #394150;
+}
+
+.price p {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+
+.price-final{
+    color: #1D1D1F;
+}
 
 
 
@@ -115,9 +167,17 @@ main{
 
 
 
-
-
-
+.form-container {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 50%;
+}
+.form-container h3{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
 
 
 

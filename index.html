@@ -80,19 +80,48 @@
             </div>
           </div>
         </div>
-    
-        <p>Subtotal: <span id="subtotal">$2597.00</span></p>
-        <p>Tax: <span id="tax">$623.28</span></p>
-        <p>Total: <span id="total">$3220.28</span></p>
-    
-        <input type="text" id="coupon" placeholder="Enter coupon code">
-        <button id="applyCoupon">Apply Coupon</button>
+
+        <div class="coupon-container">
+          <input type="text" id="coupon" placeholder="Enter coupon code">
+          <button id="applyCoupon">Apply Coupon</button>
+        </div>
+        <div class="price"><p>Subtotal: <span id="subtotal">$2597.00</span></p></div>
+        <div class="price"><p>Tax: <span id="tax">$623.28</span></p></div>
+        <div class="price price-final"><p>Total: <span id="total">$3220.28</span></p></div>
+        
+
       </div>
 
-      <div>
-        <form action="asd">
-          <input type="text" name="" id="">
-          <input type="text" name="" id="">
+      <div class="form-container">
+        <h3>Contact Information</h3>
+        <form>
+      
+
+          <div>
+            <label for="name">First & Last name</label>
+            <input type="text" name="name" placeholder="Enter first & last name">
+          </div>
+
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="Enter email address">
+          </div>
+
+          <div>
+            <label for="countries">Country</label>
+            <select name="countries">
+              <option value="Finland">Finland</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Argentina">USA</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="subject">Postal Code</label>
+            <input type="number" name="postal-code" placeholder="00270">
+          </div>
+          <input type="submit" id="continue" value="Continue">
         </form>
       </div>
     </main>
